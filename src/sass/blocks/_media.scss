@@ -11,6 +11,9 @@
         &_fz60{
             font-size: 50px;
         }
+        &_fz36 {
+            font-size: 32px;
+        }
     }
     .causes {
         &__item {
@@ -90,6 +93,7 @@
         }
     }
     .title {
+        font-size: 35px;
         &_fz60{
             font-size: 40px;
         }
@@ -98,9 +102,6 @@
         }
     }
     .causes {
-        &__header {
-            font-size: 35px;
-        }
         &__item {
             flex-direction: column;
             align-items: center;
@@ -112,16 +113,8 @@
     }
     .choice {
         min-height: 777px;
-        &__title {
-            font-size: 35px;
-        }
         &__img {
             width: 100%;
-        }
-    }
-    .require {
-        &__header {
-            font-size: 35px;
         }
     }
     .world {
@@ -225,15 +218,13 @@
         }
     }
     .title {
+        font-size: 25px;
         &_fz60{
-            line-height: 45px;
+            font-size: 45px;
         }
     }
     .mobile {
         padding: 40px 0;
-        &__title {
-            font-size: 31px;
-        }
     }
     .choice {
         min-height: 600px;
@@ -279,6 +270,7 @@
         }
     }
     .title {
+        font-size: 15px;
         &_fz60{
             font-size: 30px;
             line-height: 35px;
@@ -288,6 +280,12 @@
             font-size: 20px;
             line-height: 30px;
             padding: 0 10px;
+        }
+        &_mt32 {
+            margin-top: 16px;
+        }
+        &_mt27 {
+            margin-top: 18px;
         }
     }
     .button {
@@ -299,11 +297,6 @@
     }
     .causes {
         padding: 20px 0 36px 0;
-        &__header {
-            margin-top: 18px;
-            font-size: 15px;
-            line-height: 16px;
-        }
         &__item {
             margin-top: 24px;
         }
@@ -312,17 +305,9 @@
             height: 100px;
             margin-right: 0;
         }
-        &__title {
-            font-size: 16px;
-        }
     }
     .mobile {
         padding: 27px 0 43px 0;
-        &__title {
-            margin-top: 16px;
-            font-size: 16px;
-            line-height: 16px;
-        }
         .subtitle {
             margin-top: 9px;
             font-size: 14px;
@@ -363,9 +348,6 @@
         &__block {
             margin-top: 30px;
         }
-        &__title {
-            font-size: 16px
-        }
         &__list {
             padding-left: 30px;
 			margin-top: 5px;
@@ -375,15 +357,15 @@
             margin-bottom: 5px;
             line-height: 20px;
         }
+        &__title {
+            font-size: 16px;
+        }
         &__descr {
             font-size: 14px;
 			margin-top: 15px;
         }
     }
     .world {
-        .title {
-            font-size: 16px;
-        }
         min-height: 360px;
         padding: 25px 0 30px 0;
         &__link {

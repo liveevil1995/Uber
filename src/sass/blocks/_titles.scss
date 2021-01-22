@@ -6,13 +6,25 @@
     text-transform: uppercase;
     color: #FFFFFF;
     z-index: 2;
+    &_mb0 {
+        margin-bottom: 0;
+    }
+    &_mt20 {
+        margin-top: 20px;
+    }
+    &_mt27 {
+        margin-top: 27px;
+    }
+    &_mt32 {
+        margin-top: 32px;
+    }
     &_black{
         color: #222222;
     }
     &_fz60 {
         font-weight: 900;
         font-size: 60px;
-        line-height: 60px;
+        line-height: 49px;
         margin-bottom: 0;
     }
     &_fz36 {
