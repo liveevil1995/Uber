@@ -1,0 +1,23 @@
+.title {
+    position: relative;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    z-index: 2;
+    &_black{
+        color: #222222;
+    }
+    &_fz60 {
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 0;
+    }
+    &_fz36 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+}
+

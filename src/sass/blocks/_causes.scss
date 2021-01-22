@@ -1,0 +1,39 @@
+.causes {
+    min-height: 849px;
+    padding: 18px 0 65px 0;
+    &__header {
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+    }
+    &__round {
+        margin-right: 26px;
+        width: 113px;
+        height: 113px;
+        background: $main_color;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__descr {
+        width: 343px;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 17px;
+        color: $main_color;
+        line-height: 21px;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 21px;
+        color: #202020;
+    }
+}
